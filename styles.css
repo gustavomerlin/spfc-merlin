@@ -1,0 +1,49 @@
+@import url(styles/header.css);
+@import url(styles/banner.css);
+@import url(styles/carrossel.css);
+@import url(styles/topicos.css);
+@import url(styles/contato.css);
+@import url(styles/rodapé.css);
+
+:root {
+    --cor-de-fundo: #ff0000;
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --fonte_principal: "Roboto"
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte_principal);
+}
+
+ 
+.saopaulo {
+    width: 50%;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.descricao_imagem {
+    width: 50%;
+}
+
+@media screen and (min-width: 1024px) {
+    .saopaulo {
+        width: 13%;
+        margin: 1em 0em 1em;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .saopaulo{
+        width: 11%;
+    }
+}
